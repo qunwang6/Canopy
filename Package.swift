@@ -30,7 +30,7 @@ if ProcessInfo.processInfo.environment["SPI_BUILDER"] == "1" {
 let package = Package(
   name: "Canopy",
   defaultLocalization: "en",
-  platforms: [.iOS(.v15), .macOS(.v12)],
+  platforms: [.iOS(.v13), .macOS(.v12)],
   products: [
     // Products define the executables and libraries a package produces, and make them visible to other packages.
     .library(name: "Canopy", targets: ["Canopy", "CanopyTypes"]),
